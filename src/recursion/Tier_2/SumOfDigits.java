@@ -1,7 +1,16 @@
 package recursion.Tier_2;
 
+/**
+ * sum of all the individual digits in the inputted number 
+ */
 public class SumOfDigits {
     
+    /**
+     * sums all the individual digits in the number
+     * 
+     * @param n number that the user wants to sum up all of its individual digits 
+     * @return the sum 
+     */
     public static int sumOfDigits(int n) {
 
         // base case

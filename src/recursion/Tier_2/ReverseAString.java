@@ -1,7 +1,16 @@
 package recursion.Tier_2;
 
+/**
+ * reverses the inputted string 
+ */
 public class ReverseAString {
     
+    /**
+     * reverses the inputted string value 
+     * 
+     * @param text string value that the user wants to reverse 
+     * @return the reversed string 
+     */
     public static String reverse(String text) {
 
         // base case

@@ -1,7 +1,17 @@
 package recursion.Tier_2;
 
+/**
+ * calculates the value of the power 
+ */
 public class PowerFunction {
     
+    /**
+     * calculate the value of the power inputted 
+     * 
+     * @param base base of the power 
+     * @param exponenet exponenet of the power 
+     * @return the value of the power 
+     */
     public static int power(int base, int exponenet) {
 
         // base case

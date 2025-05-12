@@ -1,7 +1,16 @@
 package recursion.Tier_2;
 
+/**
+ * converts binary to decimal 
+ */
 public class DecimalToBinary {
     
+    /**
+     * converts binary to decimal 
+     * 
+     * @param n is the decimal number that the user wishes to convert to decimal 
+     * @return a decimal equilvanet of the number 
+     */
     public static int toBinary(int n) {
 
 

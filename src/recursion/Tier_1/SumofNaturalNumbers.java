@@ -1,6 +1,16 @@
 package recursion.Tier_1;
 
+/**
+ * sums all the numbers from 0 to the inputted value
+ */
 public class SumofNaturalNumbers {
+
+    /**
+     * sums up all the numbers from 0 to the inputted value 
+     * 
+     * @param n value that you want to be summed up until 
+     * @return the sum of all the numbers added together 
+     */
     public static int sum(int n) {
         
         // recurssive case

@@ -1,6 +1,15 @@
 package recursion.Tier_1;
 
+/**
+ * prints out numberes in decending order
+ */
 public class CountDownTimer {
+
+    /**
+     * prints out numbers in decending order
+     * 
+     * @param n starting point 
+     */
     public static void countDown(int n) {
         // solution here
 

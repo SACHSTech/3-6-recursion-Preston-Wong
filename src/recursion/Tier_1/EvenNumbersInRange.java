@@ -1,7 +1,16 @@
 package recursion.Tier_1;
 
+/**
+ * prints out all the even numbers in a certain range 
+ */
 public class EvenNumbersInRange {
     
+    /**
+     * prints out all the even numbers 
+     * 
+     * @param start the starting point of that range
+     * @param end ending point of that range 
+     */
     public static void evenNumbers(int start, int end) {
         
         // recurssive case
