@@ -6,8 +6,8 @@ public class SumofNaturalNumbers {
         // recurssive case
         if (n != 1) {
 
-            return n+ sum(n - 1);
-
+            return n + sum(n - 1);
+ 
         // base case
         } else {
 

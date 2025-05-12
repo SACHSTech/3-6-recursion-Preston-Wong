@@ -7,7 +7,7 @@ public class EvenNumbersInRange {
         // recurssive case
         if (start <= end) {
 
-            // checks if it's good 
+            // checks if it's even 
             if ((start % 2) != 0) {
 
                 System.out.println(start + 1);
