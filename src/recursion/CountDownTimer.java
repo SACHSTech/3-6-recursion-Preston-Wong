@@ -3,6 +3,19 @@ package recursion;
 public class CountDownTimer {
     public static void countDown(int n) {
         // solution here
+
+        // recurssive case 
+        if (n != 0) {
+
+            System.out.println(n);
+            countDown(n - 1);
+            
+        // base case
+        } else {
+
+            
+        }
+
     }
 
     public static void main(String[] args) {
