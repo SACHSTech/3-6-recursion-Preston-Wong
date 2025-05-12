@@ -1,4 +1,4 @@
-package recursion;
+package recursion.Tier_1;
 
 public class CountDownTimer {
     public static void countDown(int n) {

@@ -1,4 +1,4 @@
-package recursion;
+package recursion.Tier_1;
 
 public class SumofNaturalNumbers {
     public static int sum(int n) {
