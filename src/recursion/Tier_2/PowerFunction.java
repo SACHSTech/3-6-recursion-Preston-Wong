@@ -22,7 +22,7 @@ public class PowerFunction {
         // recurssive case
         } else {
 
-            return base * power(base, exponenet -1);
+            return base * power(base, exponenet - 1);
 
         }
 

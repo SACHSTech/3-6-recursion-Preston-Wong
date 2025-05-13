@@ -14,15 +14,13 @@ public class CountOccurrencesOfACharacter {
      */
     public static int countChar(String s, char c) {
 
-        int index = 0;
-
         // base case
-        if (index == s.length()) {
+        if (s.length() == 0) {
 
             return 0;
 
         // recurssive case
-        } else if (s.charAt(index) == c) {
+        } else if (s.charAt(0) == c) {
 
             return countChar(s.substring(1), c) + 1;
 
