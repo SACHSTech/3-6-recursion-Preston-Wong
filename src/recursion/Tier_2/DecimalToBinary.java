@@ -9,20 +9,20 @@ public class DecimalToBinary {
      * converts binary to decimal 
      * 
      * @param n is the decimal number that the user wishes to convert to decimal 
-     * @return a decimal equilvanet of the number 
+     * @return a string binary equilvanet of the number 
      */
-    public static int toBinary(int n) {
+    public static String toBinary(int n) {
 
 
         // base case
-        if (n == 0) {
+        if (n <= 0) {
 
-            return 0;
+            return "";
 
         // recurssive case
         } else {
 
-            return ((n % 2) + 10 * toBinary(n / 2));
+            return (toBinary(n / 2) + (n % 2));
 
         }
 
