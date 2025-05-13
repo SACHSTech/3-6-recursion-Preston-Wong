@@ -9,20 +9,20 @@ public class SumOfArray {
      * sums all the integers in the array 
      * 
      * @param arr array of integers 
-     * @param n current index of the array that we are checking
+     * @param n number of elements in the array that you want to sum 
      * @return the sum of all the integers in the array 
      */
     public static int sumArray(int[] arr, int n) {
 
         // base case 
-        if (n == arr.length) {
+        if (n == 0) {
 
             return 0;
 
         // recursive case 
         } else {
 
-            return arr[n] + sumArray(arr, n + 1);
+            return arr[n - 1] + sumArray(arr, n - 1);
 
         }
 
@@ -31,8 +31,8 @@ public class SumOfArray {
 
     public static void main(String args[]) {
 
-        int[] numbers = {1,2,3,4};
-        System.out.println(sumArray(numbers, 0)); // output 10
+        int[] numbers = {4,2,3,4,7};
+        System.out.println(sumArray(numbers, 4)); // output 10
 
     }
 

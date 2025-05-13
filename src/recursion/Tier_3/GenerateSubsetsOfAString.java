@@ -11,15 +11,15 @@ public class GenerateSubsetsOfAString {
      * @param s String that we are generating substrings from
      * @return substrings generated 
      */
-    public static String generateSubStrings(String s) {
+    public static void generateSubStrings(String s) {
 
-       return null;
+       
 
     }
 
     public static void main (String args[]) {
 
-        System.out.println(generateSubStrings("abc")); // output "", "a", "b", "c", "ab", "ac", "bc", "abc"
+        generateSubStrings("abc"); // output "", "a", "b", "c", "ab", "ac", "bc", "abc"
 
     }
 
