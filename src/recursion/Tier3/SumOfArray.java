@@ -1,4 +1,4 @@
-package recursion.Tier_3;
+package recursion.Tier3;
 
 /**
  * sums all the numbers in array 

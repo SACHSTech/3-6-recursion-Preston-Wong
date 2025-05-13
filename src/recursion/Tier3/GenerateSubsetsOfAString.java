@@ -1,4 +1,4 @@
-package recursion.Tier_3;
+package recursion.Tier3;
 
 /**
  * generates substrings of the inputted string 

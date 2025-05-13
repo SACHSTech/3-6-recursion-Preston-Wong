@@ -1,4 +1,4 @@
-package recursion.Tier_2;
+package recursion.Tier2;
 
 /**
  * reverses the inputted string 

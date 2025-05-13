@@ -1,4 +1,4 @@
-package recursion.Tier_1;
+package recursion.Tier1;
 
 /**
  * prints out all the even numbers in a certain range 

@@ -1,4 +1,4 @@
-package recursion.Tier_3;
+package recursion.Tier3;
 
 /**
  * counts the number of times a specific character appears in a string 

@@ -1,4 +1,4 @@
-package recursion.Tier_1;
+package recursion.Tier1;
 
 /**
  * prints out numberes in decending order
@@ -11,7 +11,6 @@ public class CountDownTimer {
      * @param n starting point 
      */
     public static void countDown(int n) {
-        // solution here
 
         // recursive case 
         if (n != 0) {

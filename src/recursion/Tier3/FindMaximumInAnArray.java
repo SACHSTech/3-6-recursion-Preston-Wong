@@ -1,4 +1,4 @@
-package recursion.Tier_3;
+package recursion.Tier3;
 
 /**
  * finds the maximum number in the array to a certain index 

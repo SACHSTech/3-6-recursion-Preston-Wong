@@ -1,4 +1,4 @@
-package recursion.Tier_1;
+package recursion.Tier1;
 
 /**
  * sums all the numbers from 0 to the inputted value
