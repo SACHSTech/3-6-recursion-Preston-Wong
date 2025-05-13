@@ -13,7 +13,7 @@ public class SumofNaturalNumbers {
      */
     public static int sum(int n) {
         
-        // recurssive case
+        // recursive case
         if (n != 1) {
 
             return n + sum(n - 1);

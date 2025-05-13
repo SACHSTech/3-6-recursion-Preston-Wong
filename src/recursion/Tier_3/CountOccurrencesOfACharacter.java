@@ -19,7 +19,7 @@ public class CountOccurrencesOfACharacter {
 
             return 0;
 
-        // recurssive case
+        // recursive case
         } else if (s.charAt(0) == c) {
 
             return countChar(s.substring(1), c) + 1;

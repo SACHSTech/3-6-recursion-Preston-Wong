@@ -19,7 +19,7 @@ public class DecimalToBinary {
 
             return "";
 
-        // recurssive case
+        // recursive case
         } else {
 
             return (toBinary(n / 2) + (n % 2));

@@ -19,7 +19,7 @@ public class SumOfArray {
 
             return 0;
 
-        // recurssive case 
+        // recursive case 
         } else {
 
             return arr[n] + sumArray(arr, n + 1);

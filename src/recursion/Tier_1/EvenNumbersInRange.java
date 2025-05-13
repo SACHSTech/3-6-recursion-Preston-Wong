@@ -13,7 +13,7 @@ public class EvenNumbersInRange {
      */
     public static void evenNumbers(int start, int end) {
         
-        // recurssive case
+        // recursive case
         if (start <= end) {
 
             // checks if it's even 

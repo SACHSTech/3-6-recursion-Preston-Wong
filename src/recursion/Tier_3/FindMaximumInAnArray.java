@@ -19,7 +19,7 @@ public class FindMaximumInAnArray {
 
             return 0;
 
-        // recurssive case 
+        // recursive case 
         } else {
 
             return Math.max(arr[n - 1], findMax(arr, n - 1));

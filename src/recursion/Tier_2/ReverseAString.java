@@ -18,7 +18,7 @@ public class ReverseAString {
 
             return text;
 
-        // recurssive case
+        // recursive case
         } else {
 
             return reverse(text.substring(1)) + text.charAt(0);

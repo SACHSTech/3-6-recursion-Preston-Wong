@@ -18,7 +18,7 @@ public class SumOfDigits {
 
             return 0;
 
-        // recurssive case 
+        // recursive case 
         } else {
 
             return (n % 10) + sumOfDigits(n/10);

@@ -13,7 +13,7 @@ public class CountDownTimer {
     public static void countDown(int n) {
         // solution here
 
-        // recurssive case 
+        // recursive case 
         if (n != 0) {
 
             System.out.println(n);
